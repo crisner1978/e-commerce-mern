@@ -1,4 +1,4 @@
-#E-Commerce React & Node JS w/Stripe for payments
+# E-Commerce React & Node JS w/Stripe for payments
 
 ## System Requirements
 
