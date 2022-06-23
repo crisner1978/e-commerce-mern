@@ -1,4 +1,4 @@
-[**Download the React Cheatsheet**](https://bit.ly/react-sheet-2021)
+#E-Commerce React & Node JS w/Stripe for payments
 
 ## System Requirements
 
