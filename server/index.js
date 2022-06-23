@@ -13,13 +13,13 @@ const corsOptions = {
 app.use(cors(corsOptions))
 
 // Serve the built version of our React app
-app.use(express.static(path.resolve(__dirname, "../react-client/public")));
+app.use(express.static(path.resolve(__dirname, "../react-client/build")));
 
 app.use("/api", getRoutes());
 
 // All routes that don't match api will be caught by this route (routed through our React app)
 app.get("*", function (req, res) {
-  res.sendFile(path.resolve(__dirname, "../react-client/public", "index.html"));
+  res.sendFile(path.resolve(__dirname, "../react-client/build", "index.html"));
 });
 
 app.listen(PORT, () => {
